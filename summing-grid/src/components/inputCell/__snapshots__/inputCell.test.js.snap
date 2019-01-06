@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputCell should render correctly 1`] = `
+<Cell>
+  <input
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="text"
+  />
+</Cell>
+`;

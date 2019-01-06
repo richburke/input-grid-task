@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
+import SumGrid from './components/sumGrid';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+const INPUT_CELLS_PER_ROW = 3;
+
+const App = () => (
+  <div className="App">
+    <SumGrid
+      inputCellsPerRow={INPUT_CELLS_PER_ROW}
+    />
+  </div>
+)
 
 export default App;
